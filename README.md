@@ -102,6 +102,7 @@ Use this section to explain what sort of imagery you plan to use through your si
 
 ## Features
 
+
 👩🏻‍💻 View an example of a completed user experience section [here](https://github.com/kera-cudmore/TheQuizArms#Features)
 
 This section can be used to explain what pages your site is made up of.
@@ -193,8 +194,12 @@ If you have used some code in your project that you didn't write, this is the pl
 Who wrote the content for the website? Was it yourself - or have you made the site for someone and they specified what the site was to say? This is the best place to put this information.
 
 ###  Media
+[PNGEgg](https://www.pngegg.com/) was used to source the following images:
 
-If you have used any media on your site (images, audio, video etc) you can credit them here. I like to link back to the source where I found the media, and include where on the site the image is used.
+ - [Harry Potter Logo](https://www.pngegg.com/en/png-kdysu)
+
+
+[Conde Nast Traveler:](https://www.cntraveler.com/activities/orlando/the-wizarding-world-of-harry-potter-diagon-alley) This site was used in order to incorporate the background image of Diagon Alley. 
   
 ###  Acknowledgments
 
