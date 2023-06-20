@@ -1,0 +1,18 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* Harry Potter logo*/
+#hp-title{
+    display: flex;
+    justify-content: center;
+}
+
+#hp-logo{
+    height: auto;
+    max-width: 35%;
+}
+
