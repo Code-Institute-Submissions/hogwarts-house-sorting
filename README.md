@@ -100,8 +100,6 @@ Use this section to explain what sort of imagery you plan to use through your si
 
     ![Results Page](documentation/wireframes/wireframes-results-page.png)
 
-   
-
 
 ## Features
 
@@ -133,13 +131,16 @@ Code Institute have an amazing channel for all things accessibility (a11y-access
 
 ## Technologies Used
 
-👩🏻‍💻 View an example of a completed Technologies Used section [here](https://github.com/kera-cudmore/Bully-Book-Club#Technologies-Used)
-
 ### Languages Used
-
-Make a note here of all the languages used in creating your project. For the first project this will most likely just be HTML & CSS.
+- HTML
+- CSS
+- JavaScript
 
 ### Frameworks, Libraries & Programs Used
+- [Balsamiq:](https://balsamiq.com/) was used to develop the wireframes during the design process. 
+- [GitHub:](https://github.com/) created the repository in which the project's code is pushed to from Git. 
+- [Git:](https://git-scm.com/) was used within the GitPod Terminal in order to add, commit & push to GitHub. 
+
 
 Add any frameworks, libraries or programs used while creating your project.
 
