@@ -1,5 +1,4 @@
 # The Hogwarts House Sorting Quiz
-
 The Hogwarts House Sorting Quiz is a quiz that determines the Hogwarts house the site user sorts into depending upon the choices they select for each question. Specifically, it is designed with 'Potterheads' in mind to provide a morsel of the experiences in the wizarding world for us 'muggles'. 
 
 <!-- Add Am I Responsive? completed site image here -->
@@ -183,6 +182,7 @@ Use this part of the README to link to your TESTING.md file - you can view the e
 The Credits section is where you can credit all the people and sources you used throughout your project.
 
 ### Code Used
+- [Coding Nepal:](https://www.youtube.com/watch?v=pQr4O1OITJo)
 
 If you have used some code in your project that you didn't write, this is the place to make note of it. Credit the author of the code and if possible a link to where you found the code. You could also add in a brief description of what the code does, or what you are using it for here.
 
