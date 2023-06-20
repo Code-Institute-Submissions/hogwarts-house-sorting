@@ -201,6 +201,16 @@ Who wrote the content for the website? Was it yourself - or have you made the si
  - [Harry Potter Logo](https://www.pngegg.com/en/png-kdysu)
  - [Sorting Hat Favicon](https://www.pngegg.com/en/png-cwcjr#google_vignette)
 
+[PNGWing](https://www.pngwing.com/) was used to source the following images:
+
+- [Gryffindor Logo](https://www.pngwing.com/en/free-png-vqtsg)
+- [Slytherin Logo](https://www.pngwing.com/en/free-png-kgnvk)
+- [Ravenclaw Logo](https://www.pngwing.com/en/free-png-xonjp)
+
+[PNGItem](https://www.pngitem.com/) was used to source the following images:
+
+- [Hufflepuff Logo](https://www.pngitem.com/middle/iiRiiww_transparent-ravenclaw-crest-png-harry-potter-hufflepuff-symbol/)
+
 
 [Conde Nast Traveler:](https://www.cntraveler.com/activities/orlando/the-wizarding-world-of-harry-potter-diagon-alley) This site was used to download the background image of Diagon Alley. 
   
