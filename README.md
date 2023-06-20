@@ -45,11 +45,20 @@ The Hogwarts House Sorting Quiz is a quiz that determines the Hogwarts house the
 
 ## User Experience (UX)
 
-👩🏻‍💻 View an example of a completed user experience section [here](https://github.com/kera-cudmore/Bully-Book-Club#user-experience-ux)
-
 ### User Stories
 
-Add your user stories here. You want to include first time visitors and returning visitors here as a minimum. Think about each group, and the experience and journey you want them to have on your site. It really helps to think about this before you start coding, and will really help with creating your wireframes.
+- #### First Time Visitors
+    - As a First Time Visitor, I want to be able to identify the purpose of the quiz. 
+    - As a First Time Visitor, I want to understand how to participate in the quiz.
+    - As a First Time Visitor, I want to be able to navigate through the questions with ease. 
+    - As a First Time Visitor, I want to be able to understand what it is that the question is asking with complete clarity. 
+
+- #### Returning Visitors
+    - As a Returning Visitor, I want to be able to access and begin the quiz swiftly and with ease. 
+    - As a Returning Visitor, I want to have a complete understanding of the questions & complete them quickly and effectively. 
+
+- #### Frequent Visitors
+    - As a Frequent Visitor, I want to be able to carry out the quiz numerous times confidently. 
 
 ## Design
 
@@ -178,6 +187,8 @@ If you have used some code in your project that you didn't write, this is the pl
 
 ### Content
 
+- The structure and sections of content are taken from the README.md exemplar file developed by [Kera Cudmore](https://github.com/kera-cudmore/readme-examples/blob/main/milestone1-readme.md).
+
 Who wrote the content for the website? Was it yourself - or have you made the site for someone and they specified what the site was to say? This is the best place to put this information.
 
 ###  Media
@@ -185,6 +196,7 @@ Who wrote the content for the website? Was it yourself - or have you made the si
 If you have used any media on your site (images, audio, video etc) you can credit them here. I like to link back to the source where I found the media, and include where on the site the image is used.
   
 ###  Acknowledgments
+
 
 If someone helped you out during your project, you can acknowledge them here! For example someone may have taken the time to help you on slack with a problem. Pop a little thank you here with a note of what they helped you with (I like to try and link back to their GitHub or Linked In account too). This is also a great place to thank your mentor and tutor support if you used them.
 
