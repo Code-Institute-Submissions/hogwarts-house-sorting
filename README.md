@@ -183,7 +183,9 @@ Use this part of the README to link to your TESTING.md file - you can view the e
 The Credits section is where you can credit all the people and sources you used throughout your project.
 
 ### Code Used
--[CGreatStack:](https://www.youtube.com/watch?v=PBcqGxrr9g8&t=27s)
+- [Waatz Developer:](https://www.youtube.com/watch?v=pqG26QeupXk) Incorported the style code to enable the background image to remain centered and fixed. 
+- [GreatStack:](https://www.youtube.com/watch?v=PBcqGxrr9g8&t=27s)
+- [W3Schools:](https://www.w3schools.com/howto/howto_html_favicon.asp) This site was used to add the Sorting Hat favicon in the browser tab. 
 
 If you have used some code in your project that you didn't write, this is the place to make note of it. Credit the author of the code and if possible a link to where you found the code. You could also add in a brief description of what the code does, or what you are using it for here.
 
@@ -197,9 +199,10 @@ Who wrote the content for the website? Was it yourself - or have you made the si
 [PNGEgg](https://www.pngegg.com/) was used to source the following images:
 
  - [Harry Potter Logo](https://www.pngegg.com/en/png-kdysu)
+ - [Sorting Hat Favicon](https://www.pngegg.com/en/png-cwcjr#google_vignette)
 
 
-[Conde Nast Traveler:](https://www.cntraveler.com/activities/orlando/the-wizarding-world-of-harry-potter-diagon-alley) This site was used in order to incorporate the background image of Diagon Alley. 
+[Conde Nast Traveler:](https://www.cntraveler.com/activities/orlando/the-wizarding-world-of-harry-potter-diagon-alley) This site was used to download the background image of Diagon Alley. 
   
 ###  Acknowledgments
 
