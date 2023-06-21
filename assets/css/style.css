@@ -7,6 +7,11 @@
     font-family: sans-serif;
 }
 
+/* audio controls */
+audio{
+    display: flex;
+    float: right;
+}
 /* Harry Potter logo*/
 #hp-title{
     display: flex;
