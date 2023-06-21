@@ -185,7 +185,11 @@ The Credits section is where you can credit all the people and sources you used 
 ### Code Used
 - [Waatz Developer:](https://www.youtube.com/watch?v=pqG26QeupXk) Incorported the style code to enable the background image to remain centered and fixed. 
 - [GreatStack:](https://www.youtube.com/watch?v=PBcqGxrr9g8&t=27s)
-- [W3Schools:](https://www.w3schools.com/howto/howto_html_favicon.asp) This site was used to add the Sorting Hat favicon in the browser tab. 
+
+[W3Schools](https://www.w3schools.com/)  was used to include the following code:
+-  [Favicon](https://www.w3schools.com/howto/howto_html_favicon.asp)
+-  [Alignment of images](https://www.w3schools.com/howto/howto_css_images_side_by_side.asp)
+    
 
 If you have used some code in your project that you didn't write, this is the place to make note of it. Credit the author of the code and if possible a link to where you found the code. You could also add in a brief description of what the code does, or what you are using it for here.
 
@@ -200,22 +204,17 @@ Who wrote the content for the website? Was it yourself - or have you made the si
 
  - [Harry Potter Logo](https://www.pngegg.com/en/png-kdysu)
  - [Sorting Hat Favicon](https://www.pngegg.com/en/png-cwcjr#google_vignette)
-
-[PNGWing](https://www.pngwing.com/) was used to source the following images:
-
-- [Gryffindor Logo](https://www.pngwing.com/en/free-png-vqtsg)
-- [Slytherin Logo](https://www.pngwing.com/en/free-png-kgnvk)
-- [Ravenclaw Logo](https://www.pngwing.com/en/free-png-xonjp)
-
-[PNGItem](https://www.pngitem.com/) was used to source the following images:
-
-- [Hufflepuff Logo](https://www.pngitem.com/middle/iiRiiww_transparent-ravenclaw-crest-png-harry-potter-hufflepuff-symbol/)
-
+ - [Gryffindor Crest](https://www.pngegg.com/en/png-nqglz)
+ - [Slytherin Crest](https://www.pngegg.com/en/png-nerxh)
+ - [Ravenclaw Crest](https://www.pngegg.com/en/png-owiqf)
+ - [Hufflepuff Crest](https://www.pngegg.com/en/png-bttpu)
 
 [Conde Nast Traveler:](https://www.cntraveler.com/activities/orlando/the-wizarding-world-of-harry-potter-diagon-alley) This site was used to download the background image of Diagon Alley. 
   
 ###  Acknowledgments
 
+I would like to acknowledge the following people:
+- Alan (CI Tutor Support) : A massive thank you for taking the time to resolve the cropping of an image canvas to ensure all the images are of equal size. 
 
-If someone helped you out during your project, you can acknowledge them here! For example someone may have taken the time to help you on slack with a problem. Pop a little thank you here with a note of what they helped you with (I like to try and link back to their GitHub or Linked In account too). This is also a great place to thank your mentor and tutor support if you used them.
+
 
