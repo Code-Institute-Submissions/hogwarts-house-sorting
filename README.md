@@ -70,48 +70,53 @@ Add all information about your colour scheme for your site here. You can explain
 I like to include a palette of the colour scheme here, my favourite site for creating a colour palette is [coolors](https://coolors.co/), but there are lots of other sites that also do the same thing, like [ColorSpace](https://mycolor.space/?hex=%23F5F5F5&sub=1), [Muzli Colors](https://colors.muz.li/), [Adobe Colour Wheel](https://color.adobe.com/create/color-wheel) and [Canva](https://www.canva.com/colors/color-palette-generator/) to name a few.
 
 ### Typography
+[CDN Fonts](https://www.cdnfonts.com/harrypotter7.font) were used to import the 'HarryPotter7' font applied to the 'Start' button.
 
-If you've imported fonts to use in your project, add some information about them here. You can include information like:
+- The 'HarryPotter7' font was selected as it's a calligraphic font which appears similar to that of the handwriting style used within the: magic textbooks, letters & Diagon Alley signage. 
 
-Why did you choose the font you have?
-Is this an accessibly friendly font?
-What weights have you included?
-
-I also like to include an image of the fonts chosen as a reference.
-
-[Google Fonts](https://fonts.google.com/) is a popular choice for importing fonts to use in your project, as it doesn't require you to download the fonts to use them.
+!['Start' button typography](/documentation/images/start-button-typography.png)
 
 ### Imagery
 
-Use this section to explain what sort of imagery you plan to use through your site.
+As the quiz is based on the wizarding world of Harry Potter, I have selected the background image of Diagon Alley because it recreates the atmosphere of being a first-year student gathering school supplies and readying for September when the Sorting Hat would determine your Hogwarts House.
 
 ### Wireframes
 
 - ### Main Page Wireframes
 
-    ![Main Page](documentation/wireframes/wireframes-main-page.png)
+<!-- Edit titles of wireframes to incorporate HP logo instead -->
+
+![Main Page](/documentation/wireframes/main-page-wireframe.png)
 
 - ### Quiz Page Wireframes
 
-    ![Quiz Page](documentation/wireframes/wireframes-quiz-page.png)
+
 
 - ### Results Page Wireframes
 
-    ![Results Page](documentation/wireframes/wireframes-results-page.png)
-
+    
 
 ## Features
 
-
-👩🏻‍💻 View an example of a completed user experience section [here](https://github.com/kera-cudmore/TheQuizArms#Features)
-
-This section can be used to explain what pages your site is made up of.
-
 ### General features on each page
 
-If there is a feature that appears on all pages of your site, include it here. Examples of what to include would the the navigation, a footer and a favicon.
+ The site contains three pages: home page, quiz page & results page. 
+ All the pages consist of:
+ - A favicon in the browser tab. 
 
-I then like to add a screenshot of each page of the site here, i use [amiresponsive](https://ui.dev/amiresponsive) which allows me to grab an image of the site as it would be displayed on mobile, tablet and desktop, this helps to show the responsiveness of the site.
+ ![Favicon](/documentation/images/favicon-features.png)
+
+ - The Harry Potter logo at the top of each site page which, in turn, is a link back to the home page. 
+
+ ![Harry Potter logo](/documentation/images/hp-logo-features.png)
+
+### The Home Page
+
+The Home Page exhibits the Harry Potter logo as its title since it is easily recognisable, ensuring the site users are informed of the theme behind the website; following that, a row of the house crests is displayed underneath to relate to the purpose of the quiz which is to determine which Hogwarts house the site user is more tailored towards. What's more, there are audio controls in which the user can optionally play the sound of entering the Great Hall which, in turn, contributes to providing the site user with the atmosphere of Hogwarts & the wizarding world. Finally, there is a 'Start' button granting the user access to participate in the quiz. 
+
+<!-- Add Am I Responsive? image of home page -->
+
+
 
 ### Future Implementations
 
@@ -132,14 +137,17 @@ Code Institute have an amazing channel for all things accessibility (a11y-access
 ## Technologies Used
 
 ### Languages Used
+
 - HTML
 - CSS
 - JavaScript
 
 ### Frameworks, Libraries & Programs Used
+
 - [Balsamiq:](https://balsamiq.com/) was used to develop the wireframes during the design process. 
 - [GitHub:](https://github.com/) created the repository in which the project's code is pushed to from Git. 
 - [Git:](https://git-scm.com/) was used within the GitPod Terminal in order to add, commit & push to GitHub. 
+- [Favicon.io](https://favicon.io/) was used to convert the Sorting Hat PNG into a Favicon. 
 
 
 Add any frameworks, libraries or programs used while creating your project.
@@ -177,10 +185,6 @@ Testing requirements aren't massive for your first project, however if you start
 Use this part of the README to link to your TESTING.md file - you can view the example TESTING.md file [here](milestone1-testing.md)
 
 ## Credits
-
-👩🏻‍💻 View an example of a completed Credits section [here](https://github.com/kera-cudmore/BookWorm#Credits)
-
-The Credits section is where you can credit all the people and sources you used throughout your project.
 
 ### Code Used
 - [GreatStack:](https://www.youtube.com/watch?v=PBcqGxrr9g8&t=27s)
