@@ -43,3 +43,25 @@ div img {
     object-fit: contain;
     margin-top: 175px;
 }
+
+/* start button */
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+#start-button{
+    height: 60px;
+    width: 180px;
+    font-size: 40px;
+    font-family: 'harrypotter7', sans-serif;
+    background-color: #d0d0d0;
+    border-color: #6c6c6c ;
+}
+
+#start-button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+

@@ -183,12 +183,13 @@ Use this part of the README to link to your TESTING.md file - you can view the e
 The Credits section is where you can credit all the people and sources you used throughout your project.
 
 ### Code Used
-- [Waatz Developer:](https://www.youtube.com/watch?v=pqG26QeupXk) Incorported the style code to enable the background image to remain centered and fixed. 
 - [GreatStack:](https://www.youtube.com/watch?v=PBcqGxrr9g8&t=27s)
 
 [W3Schools](https://www.w3schools.com/)  was used to include the following code:
 -  [Favicon](https://www.w3schools.com/howto/howto_html_favicon.asp)
 -  [Alignment of images](https://www.w3schools.com/howto/howto_css_images_side_by_side.asp)
+-  [Center alignment of button](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_center-flex_btn)
+-  [Shadow buttons](https://www.w3schools.com/css/css3_buttons.asp)
     
 
 If you have used some code in your project that you didn't write, this is the place to make note of it. Credit the author of the code and if possible a link to where you found the code. You could also add in a brief description of what the code does, or what you are using it for here.
