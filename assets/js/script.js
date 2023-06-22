@@ -84,6 +84,7 @@ function startQuiz(){
  * As the site user progresses through the questions the currentQuestion will display a different question and a set of answers
  * as it works up through the currentQuestionIndex
  */
+
 function showQuestion(){
     let currentQuestion = questions[currentQuestionIndex];
     let questionNumber = currentQuestionIndex + 1;
