@@ -1,4 +1,5 @@
 @import url('https://fonts.cdnfonts.com/css/harrypotter7');
+@import url('https://fonts.cdnfonts.com/css/spqr');
 
 * {
     padding: 0;
@@ -81,6 +82,16 @@ div img {
     position: absolute;
     top: 180px;
     left: 25%;
+}
+
+.quiz-container h1{
+    font-family: 'HarryPotter7', sans-serif;
+    text-align: center;
+}
+
+.quiz-questions h2{
+    font-family: 'HarryPotter7', sans-serif;
+    text-align: left;
 }
 
 
