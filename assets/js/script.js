@@ -2,72 +2,101 @@ const questions = [
     {
         question: "Which of the following would describe you the best?",
         answers: [
-           {text: "Brave", house: gryffindor},
-           {text: "Intelligent", house: ravenclaw},
-           {text: "Caring" house: hufflepuff},
-           {text: "Cunning" house: slytherin},
+           {text: "Brave"},
+           {text: "Intelligent"},
+           {text: "Caring"},
+           {text: "Cunning"},
         ],
-   
    },
    {
        question: "Which of the following subjects would you most like to study at Hogwarts?",
        answers: [
-        {text: "Transfiguration", house: gryffindor},
-        {text: "Charms", house: ravenclaw},
-        {text: "Care of Magical Creatures" house: hufflepuff},
-        {text: "Potions" house: slytherin},
-    ], 
+        {text: "Transfiguration"},
+        {text: "Charms"},
+        {text: "Care of Magical Creatures"},
+        {text: "Potions"},
+        ], 
 
     },
     {
         question: "As a 1st year student, which animal would you most like to accompany you to Hogwarts?",
         answers: [
-           {text: "A rat", house: gryffindor},
-           {text: "An owl", house: ravenclaw},
-           {text: "A toad" house: hufflepuff},
-           {text: "A cat" house: slytherin},
+           {text: "A rat"},
+           {text: "An owl"},
+           {text: "A toad"},
+           {text: "A cat"},
         ],
    
     },
     {
         question: "What career path would entice you the most once you had completed your years at Hogwarts?",
         answers: [
-           {text: "An auror", house: gryffindor},
-           {text: "A professor", house: ravenclaw},
-           {text: "A healer" house: hufflepuff},
-           {text: "An alchemist" house: slytherin},
+           {text: "An auror"},
+           {text: "A professor"},
+           {text: "A healer"},
+           {text: "An alchemist"},
         ],
    
     },
     {
         question: "What is your Zodiac sign?",
         answers: [
-           {text: "Aries, Leo and Sagittarus", house: gryffindor},
-           {text: "Gemini, Libra and Aquarius", house: ravenclaw},
-           {text: "Taurus, Virgo and Capricorn" house: hufflepuff},
-           {text: "Cancer, Scorpio & Pisces" house: slytherin},
+           {text: "Aries, Leo and Sagittarus"},
+           {text: "Gemini, Libra and Aquarius"},
+           {text: "Taurus, Virgo and Capricorn"},
+           {text: "Cancer, Scorpio & Pisces"},
         ],
    
     },
     {
         question: "Yay! You've just become a member of the Quidditch team, what position are you playing?",
         answers: [
-           {text: "Seeker", house: gryffindor},
-           {text: "Chaser", house: ravenclaw},
-           {text: "Crowd supporter" house: hufflepuff},
-           {text: "Beater" house: slytherin},
+           {text: "Seeker"},
+           {text: "Chaser"},
+           {text: "Crowd supporter"},
+           {text: "Beater"},
         ],
    
     },
     
 ];
 
-const questionElement = document.getElementById('quiz-questions');
-const answerButton = document.getElementById('answer-buttons');
-const nextButton = document.getElementById('next-btn');
+let questionElement = document.getElementById('question');
+let answerButtons = document.getElementById('answer-buttons');
+let nextButton = document.getElementById('next-btn');
 
 let currentQuestionIndex = 0;
 let sortedHouse = 0;
+
+/**
+ * Removes the original placeholder answer buttons
+ */
+function resetState(){
+    nextButton.style.display = "none";
+    while(answerButtons.firstChild){
+        answerButtons.removeChild(answerButtons.firstChild);
+    }
+}
+
+/**
+ * As the site user progresses through the questions the currentQuestion will display a different 
+ * question and a set of answers as it works up through the currentQuestionIndex
+ * Displays the answers underneath the questionNumber
+ */
+
+ function showQuestion(){
+    resetState();
+    let currentQuestion = questions[currentQuestionIndex];
+    let questionNumber = currentQuestionIndex + 1;
+    questionElement.innerHTML = questionNumber + ". " + currentQuestion.question;
+
+    currentQuestion.answers.forEach(answer => {
+        const button = document.createElement('button');
+        button.innerHTML = answer.text;
+        button.classList.add('btn');
+        answerButtons.appendChild(button);
+    });
+}
 
 /**
  * Once the quiz has started the function will reset the currentQuestionIndex and sortedHouse to 0
@@ -80,13 +109,8 @@ function startQuiz(){
     showQuestion();
 }
 
-/**
- * As the site user progresses through the questions the currentQuestion will display a different question and a set of answers
- * as it works up through the currentQuestionIndex
- */
+startQuiz();
 
-function showQuestion(){
-    let currentQuestion = questions[currentQuestionIndex];
-    let questionNumber = currentQuestionIndex + 1;
-    questionElement.innerHTML = questionNumber + '.' + currentQuestion.question;
-}
+
+
+
