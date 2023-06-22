@@ -14,19 +14,35 @@
             <img id="hp-logo" src="assets/images/harry-potter-logo.png" alt="Harry Potter Title">
         </header>
     </a>
-     <div class="quiz-container">
-        <h1>Which Hogwarts House do you belong to?</h1>
-        <div class="quiz">
+    <div class="quiz-container" id="quiz">
+        <div class="quiz-header">
             <h2 id="question">Question:</h2>
+            <ul>
+              <li>
+                <input type="radio" name="answer" id="a" class="answer">
+                <label for="a" id="a_text">Gryffindor Answer</label>
+              </li>
+              <li>
+                <input type="radio" name="answer" id="b" class="answer">
+                <label for="b" id="b_text">Ravenclaw Answer</label>
+              </li>
+              <li>
+                <input type="radio" name="answer" id="c" class="answer">
+                <label for="c" id="c_text">Hufflepuff Answer</label>
+              </li>
+              <li>
+                <input type="radio" name="answer" id="d" class="answer">
+                <label for="d" id="d_text">Slytherin Answer</label>
+              </li>
+            </ul>
         </div>
-        <div id="answer-buttons">
-            <button class="btn">Gryffindor Answer</button>
-            <button class="btn">Ravenclaw Answer</button>
-            <button class="btn">Hufflepuff Answer</button>
-            <button class="btn">Slytherin Answer</button>
-        </div>
+
         <button id="submit">Submit</button>
-     </div>
+
+      </div>
+
+
+
     <script src="assets/js/script.js"></script>
 </body>
 </html>
