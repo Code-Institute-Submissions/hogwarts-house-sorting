@@ -61,6 +61,8 @@ const questions = [
     
 ];
 
+
+
 let questionElement = document.getElementById('question');
 let answerButtons = document.getElementById('answer-buttons');
 let nextButton = document.getElementById('next-btn');
@@ -76,6 +78,67 @@ function resetState(){
     while(answerButtons.firstChild){
         answerButtons.removeChild(answerButtons.firstChild);
     }
+}
+
+/**
+ * Stores the amount of times each house option is selected and determines the users house
+ * based on the data majority
+ */
+
+optionA = document.getElementById('optionA');
+
+let numberOfA = 0;
+
+function selectedA(){
+    numberOfA++;
+}
+
+optionA.addEventListener('click', selectedA());
+
+if(numberOfA > 5){
+    console.log('Welcome to Gryffindor!');
+}
+
+optionB = document.getElementById('optionB');
+
+let numberOfB = 0;
+
+function selectedB(){
+    numberOfB++;
+}
+
+optionB.addEventListener('click', selectedB());
+
+if(numberOfB > 5){
+    console.log('Welcome to Ravenclaw!');
+}
+
+optionC = document.getElementById('optionC');
+
+let numberOfC = 0;
+
+function selectedC(){
+    numberOfC++;
+}
+
+optionC.addEventListener('click', selectedC());
+
+if(numberOfC > 5){
+    console.log('Welcome to Hufflepuff!');
+}
+
+optionD = document.getElementById('optionD');
+
+let numberOfD = 0;
+
+function selectedD(){
+    numberOfD++;
+}
+
+optionA.addEventListener('click', selectedD());
+
+if(numberOfD > 5){
+    console.log('Welcome to Slytherin!');
 }
 
 /**
@@ -95,6 +158,7 @@ function resetState(){
         button.innerHTML = answer.text;
         button.classList.add('btn');
         answerButtons.appendChild(button);
+
     });
 }
 
