@@ -121,5 +121,17 @@ button{
     background-color: white;
     color: black;
   }
+
+  div h2{
+    text-align: center;
+    font-family: 'SPQR', sans-serif;
+  }
+
+  #quiz button{
+    background-color: black;
+    color: #fff;
+    margin-top: 15px;
+  }
+  
   
 
