@@ -81,9 +81,11 @@ div img {
     position: relative;
     margin: 0 auto;
     top: 170px;
-    
-
 }
 
+.quiz-container h1{
+    font-family: 'harrypotter7', sans-serif;
+    text-align: center;
+}
 
 
