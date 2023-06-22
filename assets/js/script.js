@@ -52,9 +52,7 @@ const quizData = [
         slytherinAnswer: 3,
     },
     
-],
+]
 
 
     
-
-
