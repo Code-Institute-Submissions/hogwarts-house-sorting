@@ -99,6 +99,16 @@ div img {
 
 label{
     font-family: 'SPQR', sans-serif;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul li{
+    margin: 1rem 0;
 }
 
 .btn{
@@ -113,23 +123,25 @@ label{
     transition: all 0.3s;
 }
 
-.btn:hover{
+#submit:hover{
     background-color: white;
     border: 1px solid #6c6c6c;
+    color: black;
     
 }
 
-#next-btn{
+#submit{
     background-color: black;
     color: white;
-    border: 0;
-    width: 150px;
-    padding: 10px;
-    margin: 20px auto 0;
-    display: none;
-    cursor: pointer;
     font-family: 'HarryPotter7', sans-serif;
-    font-size: 14px;
+    margin: 20px auto 0;
+    border: 0;
+    display: block;
+    width: 100px;
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
 }
+
 
 
