@@ -114,4 +114,16 @@ div img {
     border: 1px solid black;
 }
 
+#submit{
+    background-color: black;
+    color: #ffff;
+    font-family: 'harrypotter7', sans-serif;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 2px;
+    cursor: pointer;
+    display: none;
+}
 
