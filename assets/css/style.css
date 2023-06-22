@@ -69,5 +69,18 @@ div img {
 
 #start-button:hover {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-  }
+}
+
+/* quiz area */
+.quiz-container{
+    background-image: url(/assets/images/parchment-container.png);
+    width: 90%;
+    max-width: 700px;
+    margin: auto;
+    padding: 30px;
+    position: absolute;
+    top: 180px;
+    left: 25%;
+}
+
 

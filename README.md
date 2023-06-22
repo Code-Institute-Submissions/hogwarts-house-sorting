@@ -213,6 +213,7 @@ Who wrote the content for the website? Was it yourself - or have you made the si
  - [Slytherin Crest](https://www.pngegg.com/en/png-nerxh)
  - [Ravenclaw Crest](https://www.pngegg.com/en/png-owiqf)
  - [Hufflepuff Crest](https://www.pngegg.com/en/png-bttpu)
+ - [Parchment Paper](https://www.pngegg.com/en/png-nkqry)
 
 [Conde Nast Traveler:](https://www.cntraveler.com/activities/orlando/the-wizarding-world-of-harry-potter-diagon-alley) This site was used to download the background image of Diagon Alley. 
   
