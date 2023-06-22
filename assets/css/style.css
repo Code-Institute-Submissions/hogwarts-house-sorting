@@ -111,17 +111,6 @@ ul li{
     margin: 1rem 0;
 }
 
-.btn{
-    background-color: #d0d0d0;
-    border: 1px solid #6c6c6c;
-    font-family: 'SPQR', sans-serif;
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    text-align: left; 
-    cursor: pointer; 
-    transition: all 0.3s;
-}
 
 #submit:hover{
     background-color: white;
