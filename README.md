@@ -190,7 +190,7 @@ Use this part of the README to link to your TESTING.md file - you can view the e
 ## Credits
 
 ### Code Used
-- [GreatStack:](https://www.youtube.com/watch?v=PBcqGxrr9g8&t=27s)
+- [Coding With Nick:](https://www.youtube.com/watch?v=CqddbIrEM5I)
 
 [W3Schools](https://www.w3schools.com/)  was used to include the following code:
 -  [Favicon](https://www.w3schools.com/howto/howto_html_favicon.asp)
