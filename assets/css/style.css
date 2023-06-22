@@ -115,4 +115,17 @@ div img {
     
 }
 
+#next-btn{
+    background-color: black;
+    color: white;
+    border: 0;
+    width: 150px;
+    padding: 10px;
+    margin: 20px auto 0;
+    display: none;
+    cursor: pointer;
+    font-family: 'HarryPotter7', sans-serif;
+    font-size: 14px;
+}
+
 
