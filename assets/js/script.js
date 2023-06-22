@@ -61,9 +61,17 @@ const d_text = document.getElementById('d_text');
 const submitBtn = document.getElementById('submit');
 
 let currentQuiz = 0;
-let sortedHouse = 0;
+let gryffindorHouse = 0;
+let ravenclawHouse = 0;
+let hufflepuffHouse = 0;
+let slytherinHouse = 0;
 
 loadQuiz();
+
+/**
+ * The quiz is loaded back to the first question & set of answers 
+ * once it is loaded for the first time or reset
+ */
 
 function loadQuiz(){
     deselectAnswers();
@@ -74,6 +82,35 @@ function loadQuiz(){
     c_text.innerText = currentQuizData.c;
     d_text.innerText = currentQuizData.d;
 }
+
+function deselectAnswers(){
+    answerEls.forEach(answerEls => answerEls.checked = false);
+}
+
+function getSelected(){
+    let answerEls
+    answerEls.forEach(answerEl =>{
+        if(answerEl.checked){
+            answer = answerEl.id; 
+        }
+        return answer; 
+    })
+}
+
+submitBtn.addEventListener('click', () => {
+    const answer = getSelected();
+    if(answer){
+        if(answer === quizData[currentQuiz].a){
+            gryffindorHouse++;
+        } else if(answer === quizData[currentQuiz].b){
+            ravenclawHouse++;
+        } else if(answer === quizData[currentQuiz].c){
+            hufflepuffHouse++;
+        } else if(answer === quizData[currentQuiz].d){
+            slytherinHouse++;
+        }
+    }
+})
 
 
    
