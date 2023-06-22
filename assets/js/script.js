@@ -67,5 +67,25 @@ const answerButton = document.getElementById('answer-buttons');
 const nextButton = document.getElementById('next-btn');
 
 let currentQuestionIndex = 0;
-let score = 0;
+let sortedHouse = 0;
 
+/**
+ * Once the quiz has started the function will reset the currentQuestionIndex and sortedHouse to 0
+ */
+
+function startQuiz(){
+    currentQuestionIndex = 0;
+    sortedHouse = 0;
+    nextButton.innerHTML = "Next Question";
+    showQuestion();
+}
+
+/**
+ * As the site user progresses through the questions the currentQuestion will display a different question and a set of answers
+ * as it works up through the currentQuestionIndex
+ */
+function showQuestion(){
+    let currentQuestion = questions[currentQuestionIndex];
+    let questionNumber = currentQuestionIndex + 1;
+    questionElement.innerHTML = questionNumber + '.' + currentQuestion.question;
+}
