@@ -106,7 +106,13 @@ div img {
     margin: 10px 0;
     text-align: left; 
     cursor: pointer; 
+    transition: all 0.3s;
+}
 
+.btn:hover{
+    background-color: white;
+    border: 1px solid #6c6c6c;
+    
 }
 
 
