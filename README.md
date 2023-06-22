@@ -95,15 +95,13 @@ As the quiz is based on the wizarding world of Harry Potter, I have selected the
 
 
 
-- ### Results Page Wireframes
-
     
 
 ## Features
 
 ### General features on each page
 
- The site contains three pages: home page, quiz page & results page. 
+ The site contains of two pages the home page & the quiz page
  All the pages consist of:
  - A favicon in the browser tab. 
 
