@@ -97,6 +97,10 @@ div img {
     padding: 15px 0;
 }
 
+label{
+    font-family: 'SPQR', sans-serif;
+}
+
 .btn{
     background-color: #d0d0d0;
     border: 1px solid #6c6c6c;
