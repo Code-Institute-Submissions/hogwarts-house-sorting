@@ -86,11 +86,32 @@ div img {
 .quiz-container h1{
     font-family: 'harrypotter7', sans-serif;
     text-align: center;
+    border-bottom: 1px solid black;
+    padding-bottom: 15px;
 }
 
 #question {
-    font-family: 'spqr', sans-serif;
+    font-family: 'harrypotter7', sans-serif;
     text-align: left;
+    padding: 20px 0;
+}
+
+.btn{
+    background-color: #d0d0d0;
+    border: 1px solid #6c6c6c;
+    font-family: 'spqr', sans-serif;
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: all 0.3s;
+}
+
+.btn:hover{
+    background-color: white;
+    border: 1px solid black;
 }
 
 
