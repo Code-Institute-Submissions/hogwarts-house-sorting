@@ -10,13 +10,13 @@ const questions = [
    
    },
    {
-    question: "Which of the following subjects would you most like to study at Hogwarts?",
-    answers: [
-       {text: "Transfiguration", house: gryffindor},
-       {text: "Charms", house: ravenclaw},
-       {text: "Care of Magical Creatures" house: hufflepuff},
-       {text: "Potions" house: slytherin},
-    ],
+       question: "Which of the following subjects would you most like to study at Hogwarts?",
+       answers: [
+        {text: "Transfiguration", house: gryffindor},
+        {text: "Charms", house: ravenclaw},
+        {text: "Care of Magical Creatures" house: hufflepuff},
+        {text: "Potions" house: slytherin},
+    ], 
 
     },
     {
@@ -60,4 +60,12 @@ const questions = [
    
     },
     
-]
+];
+
+const questionElement = document.getElementById('quiz-questions');
+const answerButton = document.getElementById('answer-buttons');
+const nextButton = document.getElementById('next-btn');
+
+let currentQuestionIndex = 0;
+let score = 0;
+
