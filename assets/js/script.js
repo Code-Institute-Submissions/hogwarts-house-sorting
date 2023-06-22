@@ -1,3 +1,7 @@
+/**
+ * Quiz questions & answer options
+ */
+
 const quizData = [
     {
         question: "Which of the following would describe you the best?",
@@ -44,6 +48,9 @@ const quizData = [
 
 ];
 
+/**
+ * Pull HTML elements from DOM by ID
+ */
 const quiz = document.getElementById('quiz');
 const answerEls = document.querySelectorAll('.answer');
 const questionEL = document.getElementById('question');
@@ -52,6 +59,21 @@ const b_text = document.getElementById('b_text');
 const c_text = document.getElementById('c_text');
 const d_text = document.getElementById('d_text');
 const submitBtn = document.getElementById('submit');
+
+let currentQuiz = 0;
+let sortedHouse = 0;
+
+loadQuiz();
+
+function loadQuiz(){
+    deselectAnswers();
+    const currentQuizData = quizData[currentQuiz];
+    questionEL.innerText = currentQuizData.question;
+    a_text.innerText = currentQuizData.a;
+    b_text.innerText = currentQuizData.b;
+    c_text.innerText = currentQuizData.c;
+    d_text.innerText = currentQuizData.d;
+}
 
 
    
