@@ -65,7 +65,7 @@ div img {
     font-size: 40px;
     font-family: 'harrypotter7', sans-serif;
     background-color: #d0d0d0;
-    border-color: #6c6c6c ;
+    border-color: #6c6c6c;
 }
 
 #start-button:hover {
@@ -87,11 +87,26 @@ div img {
 .quiz-container h1{
     font-family: 'HarryPotter7', sans-serif;
     text-align: center;
+    border-bottom: 1px solid black;
+    padding: 15px
 }
 
 .quiz-questions h2{
     font-family: 'HarryPotter7', sans-serif;
     text-align: left;
+    padding: 15px 0;
+}
+
+.btn{
+    background-color: #d0d0d0;
+    border: 1px solid #6c6c6c;
+    font-family: 'SPQR', sans-serif;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left; 
+    cursor: pointer; 
+
 }
 
 

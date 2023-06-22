@@ -70,7 +70,10 @@ Add all information about your colour scheme for your site here. You can explain
 I like to include a palette of the colour scheme here, my favourite site for creating a colour palette is [coolors](https://coolors.co/), but there are lots of other sites that also do the same thing, like [ColorSpace](https://mycolor.space/?hex=%23F5F5F5&sub=1), [Muzli Colors](https://colors.muz.li/), [Adobe Colour Wheel](https://color.adobe.com/create/color-wheel) and [Canva](https://www.canva.com/colors/color-palette-generator/) to name a few.
 
 ### Typography
-[CDN Fonts](https://www.cdnfonts.com/harrypotter7.font) were used to import the 'HarryPotter7' font applied to the 'Start' button.
+[CDN Fonts](https://www.cdnfonts.com/) were used to import the following fonts:
+- [HarryPotter7](https://www.cdnfonts.com/harrypotter7.font)
+- [SPQR](https://www.cdnfonts.com/spqr.font)
+ 
 
 - The 'HarryPotter7' font was selected as it's a calligraphic font which appears similar to that of the handwriting style used within the: magic textbooks, letters & Diagon Alley signage. 
 
