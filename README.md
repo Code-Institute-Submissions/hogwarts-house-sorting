@@ -123,25 +123,19 @@ As the quiz is based on the wizarding world of Harry Potter, I have selected the
 
 The Home Page exhibits the Harry Potter logo as its title since it is easily recognisable, ensuring the site users are informed of the theme behind the website; following that, a row of the house crests is displayed underneath to relate to the purpose of the quiz which is to determine which Hogwarts house the site user is more tailored towards. What's more, there are audio controls in which the user can optionally play the sound of entering the Great Hall which, in turn, contributes to providing the site user with the atmosphere of Hogwarts & the wizarding world. Finally, there is a 'Start' button granting the user access to participate in the quiz. 
 
-<!-- Add Am I Responsive? image of home page -->
+![Home Page](/documentation/images/home-page.png)
 
+### The Quiz Page
 
+Similarly, the Harry Potter logo displayed at the head of the page acts as a link to return to the home page. The container is set with the background image of parchment paper since it ties in with the Marauder's Map and the initial Hogwarts letter; the container holds four answer options each, correlating back to a House (e.g. Option A = Gryffindor). Once the user has selected their answer and prepares to submit it, hovering over the submit button will change the background colour to white and the text colour to black before progressing to the next question once clicked. Based upon the answer the user submits, each house's score will increase if their answer is selected; the user will be 'sorted' into the house with the highest score at the end of the quiz. 
 
-### Future Implementations
+![Quiz Page](/documentation/images/quiz-page.png)
 
-What features would you like to implement in the future on your site? Would you like to add more pages, or create login functionality? Add these plans here.
+### The Results
 
-### Accessibility
+The results display the Harry Potter logo at the head of the page which acts as a link to return to the home page. Depending upon the user's majority answer choices, the message 'You Are...' at the end of the quiz will contain the Hogwarts house the user sorts into based on their choices; if the user wishes to reload the quiz, by clicking 'restart' they will be redirected back to the first question. 
 
-Be an amazing developer and get used to thinking about accessibility in all of your projects!
-
-This is the place to make a note of anything you have done with accessibility in mind. Some examples include:
-
-Have you used icons and added aria-labels to enable screen readers to understand these?
-Have you ensured your site meets the minimum contrast requirements?
-Have you chosen fonts that are dyslexia/accessible friendly?
-
-Code Institute have an amazing channel for all things accessibility (a11y-accessibility) I would highly recommend joining this channel as it contains a wealth of information about accessibility and what we can do as developers to be more inclusive.
+![Results](/documentation/images/the-results.png)
 
 ## Technologies Used
 
@@ -166,8 +160,6 @@ Make sure to include things like git, GitHub, the program used to make your wire
 A great tip for this section is to include them as you use them, that way you won't forget what you ended up using when you get to the end of your project.
 
 ## Deployment & Local Development
-
-👩🏻‍💻 View an example of a completed Deployment & Local Development section [here](https://github.com/kera-cudmore/TheQuizArms#Deployment)
 
 ### Deployment
 
@@ -230,6 +222,7 @@ Who wrote the content for the website? Was it yourself - or have you made the si
 
 I would like to acknowledge the following people:
 - Alan (CI Tutor Support) : A massive thank you for taking the time to resolve the cropping of an image canvas to ensure all the images are of equal size. 
+- Holly (CI Tutor Support): A massive thank you for taking the time to explain storing data 
 
 
 
