@@ -151,13 +151,7 @@ The results display the Harry Potter logo at the head of the page which acts as 
 - [GitHub:](https://github.com/) created the repository in which the project's code is pushed to from Git. 
 - [Git:](https://git-scm.com/) was used within the GitPod Terminal in order to add, commit & push to GitHub. 
 - [Favicon.io](https://favicon.io/) was used to convert the Sorting Hat PNG into a Favicon. 
-
-
-Add any frameworks, libraries or programs used while creating your project.
-
-Make sure to include things like git, GitHub, the program used to make your wireframes, any programs used to compress your images, did you use a CSS framework like Bootstrap? If so add it here (add the version used).
-
-A great tip for this section is to include them as you use them, that way you won't forget what you ended up using when you get to the end of your project.
+- [Google Developer Tools](https://developers.google.com/web/tools) was used to test and resolve issues with style codes. 
 
 ## Deployment & Local Development
 
