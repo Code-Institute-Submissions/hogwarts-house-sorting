@@ -19,8 +19,6 @@ The Hogwarts House Sorting Quiz is a quiz that determines the Hogwarts house the
 
 * [Features](#features)
   * [General Features on Each Page](#general-features-on-each-page)
-  * [Future Implementations](#future-implementations)
-  * [Accessibility](#accessibility)
 
 * [Technologies Used](#technologies-used)
   * [Languages Used](#languages-used)
@@ -157,7 +155,15 @@ The results display the Harry Potter logo at the head of the page which acts as 
 
 ### Deployment
 
-Include instructions here on how to deploy your project. For your first project you will most likely be using GitHub Pages.
+This site is deployed using GitHub pages - ![The Hogwarts House Sorting Quiz](https://lucynowland.github.io/hogwarts-house-sorting/)
+
+In order to deploy the site you must carry out the following steps:
+- SignUp/Login to GitHub.
+- Head to the repository ![lucynowland/hogwarts-house-sorting](https://github.com/lucynowland/hogwarts-house-sorting).
+- Select settings.
+- Click 'Pages' on the left-hand navigation menu.
+- On the 'Branch' dropdown menu select save then press save.
+- The site has now been deployed successfully.
 
 ### Local Development
 
