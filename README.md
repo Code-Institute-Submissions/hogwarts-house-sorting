@@ -79,9 +79,13 @@ Due to the Home Page consisting of imagery, I decided to incorporate a colour sc
 - [SPQR](https://www.cdnfonts.com/spqr.font)
  
 
-- The 'HarryPotter7' font was selected as it's a calligraphic font which appears similar to that of the handwriting style used within the: magic textbooks, letters & Diagon Alley signage. 
+The `'HarryPotter7'` font was selected as it's a calligraphic font which appears similar to that of the handwriting style used within the: magic textbooks, letters & Diagon Alley signage. 
 
 !['Start' button typography](/documentation/images/start-button-typography.png)
+
+Similarly, the `'SPQR'` font was utilised as the calligraphic style mimics the handwriting seen in the invitation letter to Hogwarts, generating the ambience of preparing for Hogwarts as a 1st-year student. 
+
+![Answer button typography](/documentation/images/answers-typography.png)
 
 ### Imagery
 
