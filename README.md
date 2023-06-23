@@ -167,11 +167,12 @@ In order to deploy the site you must carry out the following steps:
 
 ### Local Development
 
-The local development section gives instructions on how someone else could make a copy of your project to play with on their local machine. This section will get more complex in the later projects, and can be a great reference to yourself if you forget how to do this.
-
 #### How to Fork
 
-Place instructions on how to fork your project here.
+In order to fork the repository you must carry out the following:
+- SignUp/Login to GitHub.
+- Head to the repository ![lucynowland/hogwarts-house-sorting](https://github.com/lucynowland/hogwarts-house-sorting).
+- Click the 'fork' button in the top right corner. 
 
 #### How to Clone
 
