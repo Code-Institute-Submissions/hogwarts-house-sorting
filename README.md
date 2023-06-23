@@ -95,11 +95,11 @@ As the quiz is based on the wizarding world of Harry Potter, I have selected the
 
 - ### Main Page Wireframes
 
-<!-- Edit titles of wireframes to incorporate HP logo instead -->
-
 ![Main Page](/documentation/wireframes/main-page-wireframe.png)
 
 - ### Quiz Page Wireframes
+
+![Quiz Page](/documentation/wireframes/quiz-page-wireframe.png)
 
 
 
