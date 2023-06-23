@@ -61,12 +61,20 @@ div img {
 }
 
 #start-button{
-    height: 60px;
-    width: 180px;
+    height: 90px;
+    width: 200px;
     font-size: 40px;
+    text-align: left;
     font-family: 'harrypotter7', sans-serif;
     background-color: #d0d0d0;
     border: 1px solid #6c6c6c;
+    margin: 0;
+    margin-top: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 #start-button:hover {
@@ -87,7 +95,7 @@ div img {
 #question {
     font-family: 'harrypotter7', sans-serif;
     text-align: center;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #0000;
     padding: 10px 0;
 }
 
@@ -117,28 +125,13 @@ button{
     font-family: 'harrypotter7', sans-serif;
     padding: 1.3rem;
   }
+
   button:hover{
-    background-color: white;
+    background-color: #fff;
     color: black;
   }
 
-  div h2{
-    text-align: center;
-    font-family: 'SPQR', sans-serif;
-  }
-
-  #quiz button{
-    background-color: black;
-    color: #fff;
-    margin-top: 15px;
-  }
 
 
-  /* media queries */
-  @media all and (max-width: 1000px){
-   #start-button{
-        width: 200px;
-        left: -110px;
-        top: 550px;
-   }
-  }
+
+

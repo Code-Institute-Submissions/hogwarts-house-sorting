@@ -65,9 +65,13 @@ The Hogwarts House Sorting Quiz is a quiz that determines the Hogwarts house the
 
 ### Colour Scheme
 
-Add all information about your colour scheme for your site here. You can explain why you choose the colours you did?
+Due to the Home Page consisting of imagery, I decided to incorporate a colour scheme tailoring to the colours displayed within the images; for instance, the grey tones compliment the 'silver metal' that adorns the outside of each house crest. 
 
-I like to include a palette of the colour scheme here, my favourite site for creating a colour palette is [coolors](https://coolors.co/), but there are lots of other sites that also do the same thing, like [ColorSpace](https://mycolor.space/?hex=%23F5F5F5&sub=1), [Muzli Colors](https://colors.muz.li/), [Adobe Colour Wheel](https://color.adobe.com/create/color-wheel) and [Canva](https://www.canva.com/colors/color-palette-generator/) to name a few.
+- I used `#0000` & `#fff` as the background color & text color of the submit/restart button.
+- I used `#6c6c6c`as the border color of my start button.
+- I used `##d0d0d0` as the background color of my start button. 
+
+![Color Palette](/documentation/images/color-scheme-palette.png)
 
 ### Typography
 [CDN Fonts](https://www.cdnfonts.com/) were used to import the following fonts:
