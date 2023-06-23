@@ -101,9 +101,9 @@ As the quiz is based on the wizarding world of Harry Potter, I have selected the
 
 ![Quiz Page](/documentation/wireframes/quiz-page-wireframe.png)
 
+- ### Results Wireframes
 
-
-    
+![Results](/documentation/wireframes/results-wireframe.png)
 
 ## Features
 

@@ -131,6 +131,15 @@ button{
     color: black;
   }
 
+  div h2{
+    font-family: 'SPQR', sans-serif;
+    text-align: center;
+  }
+
+  #quiz button {
+    margin-top: 20px;
+  }
+
 
 
 
