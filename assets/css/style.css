@@ -29,7 +29,7 @@ audio{
 
 /* background image */
 body {
-    background-image: url(/assets/images/diagon-alley-background-image.webp);
+    background-image: url(../images/diagon-alley-background-image.webp);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -83,7 +83,7 @@ div img {
 
 /* quiz area */
 .quiz-container{
-    background-image: url(/assets/images/parchment-container.png);
+    background-image: url(../images/parchment-container.png);
     width: 90%;
     max-width: 650px;
     padding: 30px;
