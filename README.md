@@ -169,14 +169,20 @@ In order to deploy the site you must carry out the following steps:
 
 #### How to Fork
 
-In order to fork the repository you must carry out the following:
+In order to fork the repository you must carry out the following steps:
 - SignUp/Login to GitHub.
 - Head to the repository ![lucynowland/hogwarts-house-sorting](https://github.com/lucynowland/hogwarts-house-sorting).
 - Click the 'fork' button in the top right corner. 
 
 #### How to Clone
 
-Place instructions on how to clone your project here.
+In order to clone the repository you must carry out the following steps:
+- SignUp/Login to GitHub.
+- Head to the repository ![lucynowland/hogwarts-house-sorting](https://github.com/lucynowland/hogwarts-house-sorting).
+- Click the clone button and select either: HTTPS, SSH or GitHub CLI on the 'local' section then copy the link provided. 
+- Open the terminal in your chosen code editor and change the current working directory to the location you would like to use for your cloned directory.
+- Type 'git clone' in the terminal and paste the link provided from the 'local' section before pressing Enter. 
+
 
 ## Testing
 
